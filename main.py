@@ -9,13 +9,11 @@ def main() -> None:
     )
 
     link = belvo_client.links.register_link(
-        request=belvo.LinksRequest(
-            institution="banamex_mx_retail",
-            username="username",
-            password="password",
-            accessMode=belvo.EnumLinkAccessModeRequest.SINGLE,
-            credentialsStorage="30d",
-        )
+        institution="banamex_mx_retail",
+        username="username",
+        password="password",
+        access_mode=belvo.EnumLinkAccessModeRequest.SINGLE,
+        credentials_storage="30d",
     )
 
     print(link)

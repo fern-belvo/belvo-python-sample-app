@@ -7,10 +7,15 @@ To get started:
 ```bash
 git clone git@github.com:fern-belvo/belvo-python-sample-app.git
 cd belvo-python-sample-app
-poetry shell
-poetry install
-poetry run main
-code .
+python3 -m venv venv
+source venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
 To play with the SDK, check out [src/belvo_python_sampe_app/main.py](src/belvo_python_sampe_app/main.py).
+
+To run `main.py`:
+
+```bash
+python main.py
+```
