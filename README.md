@@ -12,7 +12,7 @@ source venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-To play with the SDK, check out [src/belvo_python_sampe_app/main.py](src/belvo_python_sampe_app/main.py).
+To play with the SDK, check out [main.py](main.py).
 
 To run `main.py`:
 
